@@ -1,43 +1,86 @@
-# Astro Starter Kit: Minimal
+# ScaffoldPro - Industrial Scaffolding Website
 
-```sh
-npm create astro@latest -- --template minimal
+A modern corporate B2B website for an industrial scaffolding company, built with Astro, React, and Tailwind CSS.
+
+## Features
+
+- Modern, clean, and professional design
+- Fully responsive layout
+- Smooth animations and transitions
+- SEO optimized
+- Fast and performant
+- Accessible and WCAG compliant
+
+## Tech Stack
+
+- **Framework**: Astro
+- **Styling**: Tailwind CSS
+- **Interactivity**: React components
+- **Build Tool**: Vite
+- **Deployment**: Static site generation
+
+## Project Structure
+
+```
+src/
+├── components/     # React components (Hero, Solutions, Projects, etc.)
+├── layouts/       # Layout components
+├── pages/         # Page components
+├── styles/         # Global styles
+└── public/         # Static assets
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Getting Started
 
-## 🚀 Project Structure
+### Prerequisites
+- Node.js 18+
+- npm or yarn
 
-Inside of your Astro project, you'll see the following folders and files:
+### Installation
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+4. Build for production:
+   ```bash
+   npm run build
+   ```
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Development
 
-## 🧞 Commands
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
 
-All commands are run from the root of the project, from a terminal:
+## Features
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### Pages
+- **Homepage**: Hero section, services, projects, about, contact
+- **Responsive Design**: Mobile-first, fully responsive
+- **SEO Optimized**: Meta tags, Open Graph, Twitter cards
+- **Performance**: Optimized images, code splitting, lazy loading
 
-## 👀 Want to learn more?
+### Components
+- **Hero Section**: Full-screen hero with parallax effect
+- **Solutions**: Service cards with hover effects
+- **Projects**: Portfolio grid with filtering
+- **About**: Company stats and information
+- **Contact**: Contact form with validation
+- **News**: Blog/News section
+- **Footer**: Multi-column layout with newsletter
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Deployment
+
+The site is configured for static deployment. Build the project and deploy the `dist/` folder to any static hosting service.
+
+## License
+
+Proprietary - All rights reserved.
