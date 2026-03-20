@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 const footerLinks = {
   'Công Ty':  [{ label: 'Giới Thiệu', href: '#about' }, { label: 'Tuyển Dụng', href: '#' }, { label: 'Tin Tức', href: '#news' }, { label: 'Liên Hệ', href: '#contact' }],
@@ -24,8 +25,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2">
             <div className="mb-5">
-              <span className="text-xl font-bold text-red-500 tracking-tight">QUANG MINH</span>
-              <p className="text-xs text-gray-400 mt-1">Technology Engineering JSC</p>
+              <Image
+                src="/quang-minh-logo.svg"
+                alt="Quang Minh Technology Engineering"
+                width={160}
+                height={40}
+                className="h-10 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-400 mb-6 text-sm leading-relaxed max-w-sm">
               Công ty Cổ phần Kỹ thuật Công nghệ Quang Minh – chuyên cung cấp giàn giáo ringlock và xà gồ xây dựng chất lượng cao từ năm 2008.
