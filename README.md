@@ -1,86 +1,36 @@
-# ScaffoldPro - Industrial Scaffolding Website
-
-A modern corporate B2B website for an industrial scaffolding company, built with Astro, React, and Tailwind CSS.
-
-## Features
-
-- Modern, clean, and professional design
-- Fully responsive layout
-- Smooth animations and transitions
-- SEO optimized
-- Fast and performant
-- Accessible and WCAG compliant
-
-## Tech Stack
-
-- **Framework**: Astro
-- **Styling**: Tailwind CSS
-- **Interactivity**: React components
-- **Build Tool**: Vite
-- **Deployment**: Static site generation
-
-## Project Structure
-
-```
-src/
-├── components/     # React components (Hero, Solutions, Projects, etc.)
-├── layouts/       # Layout components
-├── pages/         # Page components
-├── styles/         # Global styles
-└── public/         # Static assets
-```
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
+First, run the development server:
 
-### Installation
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-4. Build for production:
-   ```bash
-   npm run build
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Development
+## Learn More
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
+To learn more about Next.js, take a look at the following resources:
 
-## Features
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Pages
-- **Homepage**: Hero section, services, projects, about, contact
-- **Responsive Design**: Mobile-first, fully responsive
-- **SEO Optimized**: Meta tags, Open Graph, Twitter cards
-- **Performance**: Optimized images, code splitting, lazy loading
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Components
-- **Hero Section**: Full-screen hero with parallax effect
-- **Solutions**: Service cards with hover effects
-- **Projects**: Portfolio grid with filtering
-- **About**: Company stats and information
-- **Contact**: Contact form with validation
-- **News**: Blog/News section
-- **Footer**: Multi-column layout with newsletter
+## Deploy on Vercel
 
-## Deployment
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-The site is configured for static deployment. Build the project and deploy the `dist/` folder to any static hosting service.
-
-## License
-
-Proprietary - All rights reserved.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
