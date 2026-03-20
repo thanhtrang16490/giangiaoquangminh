@@ -6,8 +6,11 @@ export default defineConfig({
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
+    preview: {
+      allowedHosts: ['giangiao.qmalu.com', 'all'],
+    },
   },
-  site: 'https://scaffolding-company.com',
+  site: 'https://giangiao.qmalu.com',
   output: 'static',
   server: {
     port: 4321,
