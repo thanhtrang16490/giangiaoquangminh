@@ -1,8 +1,11 @@
 {
-  "name": "scaffoldpro-website",
+  "name": "quangminh-website",
   "type": "module",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,16 +14,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.0.0",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^5.0.0",
+    "@astrojs/react": "^5.0.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "astro": "^6.0.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@types/react": "^19.0.0",
     "typescript": "^5.0.0"
   }
 }
